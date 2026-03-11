@@ -1,0 +1,62 @@
+c:\bin\MVVM\practics-master\bin\Debug\MVVM.exe.config
+c:\bin\MVVM\practics-master\bin\Debug\MVVM.exe
+c:\bin\MVVM\practics-master\bin\Debug\MVVM.pdb
+c:\bin\MVVM\practics-master\obj\Debug\MVVM.csprojAssemblyReference.cache
+c:\bin\MVVM\practics-master\obj\Debug\MainWindow.g.cs
+c:\bin\MVVM\practics-master\obj\Debug\App.g.cs
+c:\bin\MVVM\practics-master\obj\Debug\MVVM_MarkupCompile.cache
+c:\bin\MVVM\practics-master\obj\Debug\MVVM_MarkupCompile.lref
+c:\bin\MVVM\practics-master\obj\Debug\MainWindow.baml
+c:\bin\MVVM\practics-master\obj\Debug\MVVM.g.resources
+c:\bin\MVVM\practics-master\obj\Debug\MVVM.Properties.Resources.resources
+c:\bin\MVVM\practics-master\obj\Debug\MVVM.csproj.GenerateResource.cache
+c:\bin\MVVM\practics-master\obj\Debug\MVVM.csproj.CoreCompileInputs.cache
+c:\bin\MVVM\practics-master\obj\Debug\MVVM.exe
+c:\bin\MVVM\practics-master\obj\Debug\MVVM.pdb
+C:\Users\keynazzy\Downloads\mvvm\obj\Debug\MVVM.exe
+C:\Users\keynazzy\Downloads\mvvm\obj\Debug\MVVM.pdb
+C:\Users\keynazzy\Downloads\mvvm\obj\Debug\MVVM.csproj.AssemblyReference.cache
+C:\Users\keynazzy\Downloads\mvvm\obj\Debug\MainWindow.g.cs
+C:\Users\keynazzy\Downloads\mvvm\obj\Debug\App.g.cs
+C:\Users\keynazzy\Downloads\mvvm\obj\Debug\MVVM_MarkupCompile.cache
+C:\Users\keynazzy\Downloads\mvvm\obj\Debug\MVVM_MarkupCompile.lref
+C:\Users\keynazzy\Downloads\mvvm\bin\Debug\MVVM.exe.config
+C:\Users\keynazzy\Downloads\mvvm\bin\Debug\MVVM.exe
+C:\Users\keynazzy\Downloads\mvvm\bin\Debug\MVVM.pdb
+C:\Users\keynazzy\Downloads\mvvm\obj\Debug\MainWindow.baml
+C:\Users\keynazzy\Downloads\mvvm\obj\Debug\MVVM.g.resources
+C:\Users\keynazzy\Downloads\mvvm\obj\Debug\MVVM.Properties.Resources.resources
+C:\Users\keynazzy\Downloads\mvvm\obj\Debug\MVVM.csproj.GenerateResource.cache
+C:\Users\keynazzy\Downloads\mvvm\obj\Debug\MVVM.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\mvvm\bin\Debug\MVVM.exe.config
+C:\Users\hp\Desktop\mvvm\bin\Debug\MVVM.exe
+C:\Users\hp\Desktop\mvvm\bin\Debug\MVVM.pdb
+C:\Users\hp\Desktop\mvvm\obj\Debug\MVVM.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\mvvm\obj\Debug\MVVM.exe.config
+C:\Users\hp\Desktop\mvvm\obj\Debug\MainWindow.g.cs
+C:\Users\hp\Desktop\mvvm\obj\Debug\App.g.cs
+C:\Users\hp\Desktop\mvvm\obj\Debug\MVVM_MarkupCompile.cache
+C:\Users\hp\Desktop\mvvm\obj\Debug\MVVM_MarkupCompile.lref
+C:\Users\hp\Desktop\mvvm\obj\Debug\MainWindow.baml
+C:\Users\hp\Desktop\mvvm\obj\Debug\MVVM.g.resources
+C:\Users\hp\Desktop\mvvm\obj\Debug\MVVM.Properties.Resources.resources
+C:\Users\hp\Desktop\mvvm\obj\Debug\MVVM.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\mvvm\obj\Debug\MVVM.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\mvvm\obj\Debug\MVVM.exe
+C:\Users\hp\Desktop\mvvm\obj\Debug\MVVM.pdb
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\bin\Debug\MVVM.exe.config
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\bin\Debug\MVVM.exe
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\bin\Debug\MVVM.pdb
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\obj\Debug\MVVM.csproj.AssemblyReference.cache
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\obj\Debug\MVVM.exe.config
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\obj\Debug\MainWindow.g.cs
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\obj\Debug\App.g.cs
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\obj\Debug\MVVM_MarkupCompile.cache
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\obj\Debug\MVVM_MarkupCompile.lref
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\obj\Debug\MainWindow.baml
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\obj\Debug\MVVM.g.resources
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\obj\Debug\MVVM.Properties.Resources.resources
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\obj\Debug\MVVM.csproj.GenerateResource.cache
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\obj\Debug\MVVM.csproj.CoreCompileInputs.cache
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\obj\Debug\MVVM.exe
+C:\Users\hp\For_Personal_Usage\There_are_all_my_codes\Архитектура информационных систем\mvvm\obj\Debug\MVVM.pdb

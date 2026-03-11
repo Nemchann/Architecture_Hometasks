@@ -1,0 +1,5 @@
+C:\Users\keynazzy\Downloads\mvvm\obj\Release\MVVM.csproj.AssemblyReference.cache
+C:\Users\keynazzy\Downloads\mvvm\obj\Release\MainWindow.g.cs
+C:\Users\keynazzy\Downloads\mvvm\obj\Release\App.g.cs
+C:\Users\keynazzy\Downloads\mvvm\obj\Release\MVVM_MarkupCompile.cache
+C:\Users\keynazzy\Downloads\mvvm\obj\Release\MVVM_MarkupCompile.lref
