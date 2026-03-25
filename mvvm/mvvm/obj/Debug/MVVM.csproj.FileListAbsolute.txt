@@ -1,0 +1,15 @@
+c:\bin\MVVM\practics-master\bin\Debug\MVVM.exe.config
+c:\bin\MVVM\practics-master\bin\Debug\MVVM.exe
+c:\bin\MVVM\practics-master\bin\Debug\MVVM.pdb
+c:\bin\MVVM\practics-master\obj\Debug\MVVM.csprojAssemblyReference.cache
+c:\bin\MVVM\practics-master\obj\Debug\MainWindow.g.cs
+c:\bin\MVVM\practics-master\obj\Debug\App.g.cs
+c:\bin\MVVM\practics-master\obj\Debug\MVVM_MarkupCompile.cache
+c:\bin\MVVM\practics-master\obj\Debug\MVVM_MarkupCompile.lref
+c:\bin\MVVM\practics-master\obj\Debug\MainWindow.baml
+c:\bin\MVVM\practics-master\obj\Debug\MVVM.g.resources
+c:\bin\MVVM\practics-master\obj\Debug\MVVM.Properties.Resources.resources
+c:\bin\MVVM\practics-master\obj\Debug\MVVM.csproj.GenerateResource.cache
+c:\bin\MVVM\practics-master\obj\Debug\MVVM.csproj.CoreCompileInputs.cache
+c:\bin\MVVM\practics-master\obj\Debug\MVVM.exe
+c:\bin\MVVM\practics-master\obj\Debug\MVVM.pdb
