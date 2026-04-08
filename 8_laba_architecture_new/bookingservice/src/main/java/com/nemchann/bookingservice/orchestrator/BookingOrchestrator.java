@@ -1,15 +1,21 @@
 package com.nemchann.bookingservice.orchestrator;
 
 import com.nemchann.bookingservice.orchestrator.states.NewState;
+import lombok.Getter;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 
 public class BookingOrchestrator {
     private BookingState state;
+    @Getter
     private String bookingId;
+    @Getter
     private String clientName;
+    @Getter
     private String workoutName;
 
+    // Геттеры
     // Ссылка на RabbitMQ для отправки сообщений
+    @Getter
     private final RabbitTemplate rabbitTemplate;
 
     public BookingOrchestrator(String bookingId, String clientName, String workoutName, RabbitTemplate rabbitTemplate) {
@@ -37,10 +43,5 @@ public class BookingOrchestrator {
         this.state.handleFailure(this);
     }
 
-    // Геттеры
-    public RabbitTemplate getRabbitTemplate() { return rabbitTemplate; }
-    public String getBookingId() { return bookingId; }
-    public String getClientName() { return clientName; }
-    public String getWorkoutName() { return workoutName; }
     public String getCurrentStateName() { return state.getStateName(); }
 }
