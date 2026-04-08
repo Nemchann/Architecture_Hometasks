@@ -1,9 +1,11 @@
 package com.nemchann.bookingservice.controller;
 
 import com.nemchann.bookingservice.entity.Booking;
+import com.nemchann.bookingservice.orchestrator.BookingOrchestrator;
 import com.nemchann.bookingservice.repository.BookingRepository;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -30,6 +32,8 @@ public class BookingController {
 
         // TODO: 3. Создать Оркестранта, передать ему savedBooking.getId()
         // и запустить процесс processSuccess() для отправки сообщения в Payment Service
+        RabbitTemplate template = new RabbitTemplate();
+        BookingOrchestrator bookingOrchestrator = new BookingOrchestrator(newBooking.getId(), newBooking.getClientName(), newBooking.getWorkoutName(), template);
 
         return savedBooking;
     }
