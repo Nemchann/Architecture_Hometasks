@@ -13,7 +13,6 @@ public class BookingOrchestrator {
     @Getter
     private String workoutName;
 
-    // Геттеры
     // Ссылка на RabbitMQ для отправки сообщений
     @Getter
     private final RabbitTemplate rabbitTemplate;
@@ -28,9 +27,9 @@ public class BookingOrchestrator {
         this.state = new NewState();
     }
 
-    // Сеттер для смены состояния (используется внутри самих состояний)
+    // Сеттер для смены состояния
     public void setState(BookingState state) {
-        System.out.println("🔄 Переход автомата: " + this.state.getStateName() + " -> " + state.getStateName());
+        System.out.println("Переход автомата: " + this.state.getStateName() + " -> " + state.getStateName());
         this.state = state;
     }
 

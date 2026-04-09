@@ -33,7 +33,7 @@ public class BookingController {
         // 2. Сохраняем в MongoDB (база сама сгенерирует ID)
         Booking savedBooking = bookingRepository.save(newBooking);
 
-        // TODO: 3. Создать Оркестранта, передать ему savedBooking.getId()
+        // 3. Создать Оркестранта, передать ему savedBooking.getId()
         // и запустить процесс processSuccess() для отправки сообщения в Payment Service
         return sagaManager.startBookingSaga(clientName, workoutName);
     }

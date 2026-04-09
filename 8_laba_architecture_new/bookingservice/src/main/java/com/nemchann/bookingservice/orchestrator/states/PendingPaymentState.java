@@ -6,7 +6,7 @@ import com.nemchann.bookingservice.orchestrator.BookingState;
 public class  PendingPaymentState implements BookingState {
     @Override
     public void handleSuccess(BookingOrchestrator context) {
-        System.out.println("✅ Оплата подтверждена для брони: " + context.getBookingId());
+        System.out.println("Оплата подтверждена для брони: " + context.getBookingId());
 
         // Формируем уведомление
         String msg = "Уважаемая " + context.getClientName() + ", ждем вас на " + context.getWorkoutName() + "!";

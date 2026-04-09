@@ -34,7 +34,7 @@ public class PaymentListener {
         try { Thread.sleep(2000); } catch (InterruptedException e) { e.printStackTrace(); }
 
         // ОТПРАВЛЯЕМ ОБРАТНО в очередь ответов
-        System.out.println("📤 Отправляем результат оплаты: " + isSuccess);
+        System.out.println("Отправляем результат оплаты: " + isSuccess);
         rabbitTemplate.convertAndSend("payment.response", response);
     }
 }
