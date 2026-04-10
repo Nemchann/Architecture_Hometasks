@@ -52,8 +52,6 @@ public class BookingSagaManager {
         BookingOrchestrator orchestrator = new BookingOrchestrator(
                 booking.getId(), booking.getClientName(), booking.getWorkoutName(), rabbitTemplate);
 
-        // Здесь нужно восстановить состояние из строки в БД
-        // Для простоты можно добавить switch/case или мапу состояний
         if ("PENDING_PAYMENT".equals(booking.getStatus())) {
             orchestrator.setState(new PendingPaymentState());
         }

@@ -19,7 +19,7 @@ public class PaymentListener {
     // Слушаем очередь запросов на оплату
     @RabbitListener(queues = "payment.request")
     public void processPayment(String bookingId) {
-        System.out.println("💳 Получен запрос на оплату брони: " + bookingId);
+        System.out.println("Получен запрос на оплату брони: " + bookingId);
 
         // Имитируем вероятность успеха 80% (20% на ошибку)
         boolean isSuccess = random.nextInt(100) >= 20;
@@ -30,7 +30,6 @@ public class PaymentListener {
         response.setSuccess(isSuccess);
         response.setMessage(isSuccess ? "Оплата прошла успешно" : "Ошибка: недостаточно средств");
 
-        // Имитируем небольшую задержку сервера
         try { Thread.sleep(2000); } catch (InterruptedException e) { e.printStackTrace(); }
 
         // ОТПРАВЛЯЕМ ОБРАТНО в очередь ответов
