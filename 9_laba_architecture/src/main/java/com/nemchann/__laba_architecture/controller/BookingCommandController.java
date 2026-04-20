@@ -15,11 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/commands/bookings")
 @Tag(name = "Контроллер создания бронирования")
 public class BookingCommandController {
-    private final BookingRepository repository;
     private final BookingServiceImpl service;
 
     public BookingCommandController(BookingRepository repository, BookingServiceImpl service){
-        this.repository = repository;
         this.service = service;
     }
 

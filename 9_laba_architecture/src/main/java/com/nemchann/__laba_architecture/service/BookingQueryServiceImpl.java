@@ -21,10 +21,9 @@ public class BookingQueryServiceImpl implements BookingQueryService{
 
     @Override
     public List<BookingReadModel> findAll() {
-        // 1. Получаем список Entity из базы
         List<Booking> entities = repository.findAll();
 
-        // 2. Превращаем список Entity в список ReadModel (DTO)
+        // Превращаем список Entity в список ReadModel (DTO)
         return entities.stream()
                 .map(this::mapToReadModel)
                 .collect(Collectors.toList());
@@ -37,7 +36,6 @@ public class BookingQueryServiceImpl implements BookingQueryService{
                 .orElseThrow(() -> new RuntimeException("Бронирование не найдено"));
     }
 
-    // Вспомогательный метод для маппинга
     private BookingReadModel mapToReadModel(Booking entity) {
         return new BookingReadModel(
                 entity.getId(),

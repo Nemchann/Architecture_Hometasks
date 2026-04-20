@@ -1,8 +1,5 @@
 package com.nemchann.__laba_architecture.model;
 
-
-import jakarta.persistence.Column;
-import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
