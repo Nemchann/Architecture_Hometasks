@@ -33,6 +33,7 @@ func NewTokenBucket(capacity int, rate time.Duration) *TokenBucket {
 	return tb
 }
 
+//"Забираем" токен
 func (tb *TokenBucket) Allow() bool {
 	tb.mu.Lock()
 	defer tb.mu.Unlock()

@@ -18,6 +18,7 @@ func (fw *FixedWindow) Allow() bool {
 	fw.mu.Lock()
 	defer fw.mu.Unlock()
 
+	//Высчитываем следующий промежуток времени
 	now := time.Now().UnixNano() / int64(fw.window)
 	if now > fw.lastTick {
 		fw.counter = 0

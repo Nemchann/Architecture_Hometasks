@@ -8,5 +8,5 @@
 7. Seventh +
 8. Eighth +
 9. Ninth +
-10. Tenth -process
+10. Tenth +
 11. Eleventh - Final Project -

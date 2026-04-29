@@ -63,11 +63,13 @@ TRUNCATE TABLE workouts RESTART IDENTITY CASCADE;
 select * from workouts
 
 INSERT INTO rooms (room_name, capacity) VALUES
-('Зал 1 - Йога', 15),
-('Зал 2 - Силовой', 12),
-('Зал 3 - Танцевальный', 20),
-('Зал 4 - Пилатес', 10),
-('Малый зал', 8);
+('GREEN', 15),
+('BLUE', 17),
+('ORANGE', 20),
+('PINK', 10);
+
+select * from rooms
+
 
 INSERT INTO schedule (
     workout_id, room_id, trainer_id, 

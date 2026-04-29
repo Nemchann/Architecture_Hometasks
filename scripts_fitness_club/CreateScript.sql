@@ -82,12 +82,7 @@ ALTER COLUMN create_at SET DEFAULT now();
 --Подробная информация о каждом пользователе
 create table profiles
 (
-	id serial primary key,
-	user_id uuid not null,
-	constraint fk_profiles_user
-	foreign key (user_id) references users(id)
-		ON UPDATE CASCADE 
-        ON DELETE CASCADE,
+	id uuid primary key,
 	surname char varying (100) not null,
 	selfname char varying (100) not null,
 	patronymic char varying (100),
@@ -102,6 +97,11 @@ create table profiles
 	check (email ~* '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$')
 );
 
+
+select * from users
+select * from profiles 
+
+delete from schedule
 --Платежи
 create table payments
 (
@@ -121,6 +121,9 @@ create table payments
         ON DELETE restrict
       
 );
+
+alter table schedule 
+add is_active bool
 
 --Именно тренировки в расписании
 create table schedule
